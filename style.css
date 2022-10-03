@@ -117,11 +117,10 @@ main {
     border: 2px solid grey;
     border-radius:5px;
     background-color:black;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;               
-    top: 50%;                         
-    transform: translate(60%, -50%)
+    position: absolute;     
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0; right: 0;       
 }
 .ribbon{
     width:700px;
@@ -129,6 +128,7 @@ main {
     border: 1px solid grey;
     border-radius:3px;
     background-color:grey;
+    align-items: center;
 }
 .circle{
     float:left;
