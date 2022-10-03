@@ -111,3 +111,38 @@ main {
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px)
 }
+.terminal{
+    width:700px;
+    height:500px;
+    border: 2px solid grey;
+    border-radius:5px;
+    background-color:black;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;               
+    top: 50%;                         
+    transform: translate(60%, -50%)
+}
+.ribbon{
+    width:700px;
+    height:30px;
+    border: 1px solid grey;
+    border-radius:3px;
+    background-color:grey;
+}
+.circle{
+    float:left;
+    width:20px;
+}
+.terminal-title {
+    color:white;
+    padding-left:65px;
+}
+.terminal-content { 
+    width:700px;
+    color:white;
+    padding-left:3px;
+    padding-top:0px;
+    float:left;
+    margin-top:-110px;
+}
