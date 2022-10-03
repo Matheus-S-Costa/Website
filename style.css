@@ -114,7 +114,7 @@ main {
 .terminal{
     width:700px;
     height:500px;
-    border: 2px solid black;
+    border: 2px solid #1D1E1A;
     border-radius:5px;
     background-color:#23232e;
     position: absolute;     
@@ -125,9 +125,9 @@ main {
 .ribbon{
     width:700px;
     height:30px;
-    border: 1px solid black;
+    border: 1px solid #1D1E1A;
     border-radius:3px;
-    background-color:black;
+    background-color:#1D1E1A;
     align-items: center;
 }
 .circle{
